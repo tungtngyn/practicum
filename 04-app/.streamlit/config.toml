@@ -1,0 +1,9 @@
+[theme]
+backgroundColor = "#1B1B1F"
+secondaryBackgroundColor = "#33363E"
+primaryColor = "#4F46E5"
+textColor = "#FFFFFF"
+
+font = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+headingFont = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+codeFont = "Roboto Mono:https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"

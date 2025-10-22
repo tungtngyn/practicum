@@ -1,0 +1,84 @@
+Prompt ID: 4fd7c3e7-4ff7-407f-aad8-33db3d9cc0bc
+Prompt: Were there any anomalies in February?
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 6e262ac3-d56a-47ec-8c49-c0fbd84ad400
+Prompt: Yes. Please provide details.
+
+Retrieved: 4, Sample (Top-1):
+4Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+www.nature.com/scientificdatawww.nature.com/scientificdata/
+Fig. 3 Snapshot of the digital sensors on the APU under normal operating conditions.
+Fig. 4 Snapshot of the GPS information under normal operating conditions.
+Place
+Polygon
+Point 1 Point 2 Point 3 Point 4
+Latitude Longitude Latitude Longitude Latitude Longitude Latitude Longitude
+Maintenance 41.212693 −8.661192 41.213258 −8.657555 41.215243 −8.660516 41.213375 −8.662785
+Park 1 41.213604 −8.660474 41.212829 −8.661654 41.210198 −8.657824 41.211126 −8.656569
+Park 2 41.376419 −8.757253 41.378367 −8.758960 41.378528 −8.758405 41.376558 −8.756909
+Park 3 41.269800 −8.614621 41.272303 −8.613077 41.272428 −8.613600 41.271245 −8.614321
+Park 4 41.168919 −8.543092 41.170735 −8.542713 41.170798 −8.543335 41.168919 −8.543646
+Park 5 41.157216 −8.584129 41.156949 −8.583357 41.155669 −8.583958 41.155766 −8.584537
+
+
+Prompt ID: b1df7560-3640-4647-b12b-edbc1fc3f8ac
+Prompt: Can you show me what oil temperature looks like around the anomaly period?
+
+Retrieved: 4, Sample (Top-1):
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+Failure 3 - Oil leak on compressor. Regarding the oil leak, due to hardware design, there was not any signal sys
+-
+tem related to oil to warn the train driver. The oil leak provoked severe damage to the engine of the compressor, 
+and subsequently, due to the inoperable compressor, it was observed a drop on the air pressure and the train 
+needed to be removed from the tracks.
+Figure 8 shows irregular patterns since 12:00 on the oil temperature, indicating that there is some issue with 
+the oil system, we can also observe strange patterns on the air system, signalling that maybe the oil is escaping to 
+the air system or the compressor is losing their efficiency.
+Fig. 5 The GPS information on one of the train’s trajectories. When the train enters a tunnel loses the GPS 
+signal.
+
+
+Prompt ID: c689b5d8-6210-4e2c-a5ac-958001c662a0
+Prompt: Can you show me what dv electric looks like around the anomaly period?
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 203f1c0f-8086-454a-820d-f046294257c3
+Prompt: Can you remind me what unit oil temperature is in?
+
+Retrieved: 4, Sample (Top-1):
+•	 TP34 - Pressure generated at the pneumatic panel (bar).
+•	 H14 - Valve that is activated when the pressure read by the pressure switch of the command is above the oper-
+ating pressure of 10.2 bar (bar).
+•	 DV_pressure 4 - Pressure exerted due to pressure drop generated when air dryers towers discharge the 
+water. When it is equal to zero, the compressor is working under load (bar).
+•	 Reservoirs4 - Pressure inside the air tanks installed on the trains (bar).
+•	 Oil_Temperature5 - Temperature of the oil present on the compressor (°C).
+•	 Flowmeter6 - Airflow was measured on the pneumatic control panel (m3/h).
+•	 Motor_Current 7 - Motor’s current, which should present the following values: (i) close to 0 A when the 
+compressor turns off; (ii) close to 4 A when the compressor is working offloaded; and (iii) close to 7 A when 
+the compressor is operating under load (A);
+Digital sensors. The eight digital signals are collected directly from the APU and GPS information.
+
+

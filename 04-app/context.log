@@ -1,0 +1,666 @@
+Prompt ID: 1dd77135-66d0-4c46-9ed1-c53751a64566
+Prompt: Hi, were there any anomalies today?
+
+Retrieved: 0, Sample (Top-1):
+Prompt ID: 1ffc0f47-507b-4400-9513-6276817b7df5
+Prompt: Hi, were there any anomalies today?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: a9229f23-6db4-42b2-91d8-1ecd1f08996f
+Prompt: Hi, were there any anomalies today?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: ced73711-19cb-4a1b-a519-4e2039b04e05
+Prompt: Were there any anomalies on Feb 27th?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: 61eb4f68-19ca-47e7-a1ca-92a8a5f0a271
+Prompt: Were there any anomalies on Feb 27th?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: 8050c92a-5574-4852-bf13-8f9930986013
+Prompt: Were there any anomalies on Feb 27?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: bb308276-8f94-47df-9a4a-7ec6432cdb38
+Prompt: Were there any anomalies on Feb 27?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: dda32a2d-90dc-4311-ba61-f5ea30f173ba
+Prompt: Were there any anomalies on Feb 27?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: f4bdcb99-0304-4d07-af31-962b8c523080
+Prompt: Yes
+
+Retrieved: 4, Sample (Top-1):
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2022
+
+
+Prompt ID: d3fd0d0e-1a20-49dd-b9e3-1031f967c852
+Prompt: were there any anomalies on Feb 27th?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: f6fead19-27ca-4a50-9b9c-58f4e9132511
+Prompt: Yes, please provide details
+
+Retrieved: 4, Sample (Top-1):
+4Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+www.nature.com/scientificdatawww.nature.com/scientificdata/
+Fig. 3 Snapshot of the digital sensors on the APU under normal operating conditions.
+Fig. 4 Snapshot of the GPS information under normal operating conditions.
+Place
+Polygon
+Point 1 Point 2 Point 3 Point 4
+Latitude Longitude Latitude Longitude Latitude Longitude Latitude Longitude
+Maintenance 41.212693 −8.661192 41.213258 −8.657555 41.215243 −8.660516 41.213375 −8.662785
+Park 1 41.213604 −8.660474 41.212829 −8.661654 41.210198 −8.657824 41.211126 −8.656569
+Park 2 41.376419 −8.757253 41.378367 −8.758960 41.378528 −8.758405 41.376558 −8.756909
+Park 3 41.269800 −8.614621 41.272303 −8.613077 41.272428 −8.613600 41.271245 −8.614321
+Park 4 41.168919 −8.543092 41.170735 −8.542713 41.170798 −8.543335 41.168919 −8.543646
+Park 5 41.157216 −8.584129 41.156949 −8.583357 41.155669 −8.583958 41.155766 −8.584537
+
+
+Prompt ID: 78774b58-d69a-4020-9151-87391b3195b9
+Prompt: Were there any anomalies on Feb 27th?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: 102d0633-7130-40ad-a199-d5c9a4732f45
+Prompt: What's todays date?
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 51d3cdb8-0817-4d07-85a7-b3dd12478e40
+Prompt: Were there any anomalies on Feb 27?
+
+Retrieved: 4, Sample (Top-1):
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: 0b91e340-9635-47d0-bcec-3b1d6c2deae4
+Prompt: Yes, please provide more details
+
+Retrieved: 4, Sample (Top-1):
+4Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+www.nature.com/scientificdatawww.nature.com/scientificdata/
+Fig. 3 Snapshot of the digital sensors on the APU under normal operating conditions.
+Fig. 4 Snapshot of the GPS information under normal operating conditions.
+Place
+Polygon
+Point 1 Point 2 Point 3 Point 4
+Latitude Longitude Latitude Longitude Latitude Longitude Latitude Longitude
+Maintenance 41.212693 −8.661192 41.213258 −8.657555 41.215243 −8.660516 41.213375 −8.662785
+Park 1 41.213604 −8.660474 41.212829 −8.661654 41.210198 −8.657824 41.211126 −8.656569
+Park 2 41.376419 −8.757253 41.378367 −8.758960 41.378528 −8.758405 41.376558 −8.756909
+Park 3 41.269800 −8.614621 41.272303 −8.613077 41.272428 −8.613600 41.271245 −8.614321
+Park 4 41.168919 −8.543092 41.170735 −8.542713 41.170798 −8.543335 41.168919 −8.543646
+Park 5 41.157216 −8.584129 41.156949 −8.583357 41.155669 −8.583958 41.155766 −8.584537
+
+
+Prompt ID: 44da9d09-9caa-472d-8c8b-3e33ee148063
+Prompt: can you plot oil temperature?
+
+Retrieved: 4, Sample (Top-1):
+•	 TP34 - Pressure generated at the pneumatic panel (bar).
+•	 H14 - Valve that is activated when the pressure read by the pressure switch of the command is above the oper-
+ating pressure of 10.2 bar (bar).
+•	 DV_pressure 4 - Pressure exerted due to pressure drop generated when air dryers towers discharge the 
+water. When it is equal to zero, the compressor is working under load (bar).
+•	 Reservoirs4 - Pressure inside the air tanks installed on the trains (bar).
+•	 Oil_Temperature5 - Temperature of the oil present on the compressor (°C).
+•	 Flowmeter6 - Airflow was measured on the pneumatic control panel (m3/h).
+•	 Motor_Current 7 - Motor’s current, which should present the following values: (i) close to 0 A when the 
+compressor turns off; (ii) close to 4 A when the compressor is working offloaded; and (iii) close to 7 A when 
+the compressor is operating under load (A);
+Digital sensors. The eight digital signals are collected directly from the APU and GPS information.
+
+
+Prompt ID: 9eda9af7-e73f-460f-97b2-2185d32fbe21
+Prompt: Can you plot oil temperature
+
+Retrieved: 4, Sample (Top-1):
+•	 TP34 - Pressure generated at the pneumatic panel (bar).
+•	 H14 - Valve that is activated when the pressure read by the pressure switch of the command is above the oper-
+ating pressure of 10.2 bar (bar).
+•	 DV_pressure 4 - Pressure exerted due to pressure drop generated when air dryers towers discharge the 
+water. When it is equal to zero, the compressor is working under load (bar).
+•	 Reservoirs4 - Pressure inside the air tanks installed on the trains (bar).
+•	 Oil_Temperature5 - Temperature of the oil present on the compressor (°C).
+•	 Flowmeter6 - Airflow was measured on the pneumatic control panel (m3/h).
+•	 Motor_Current 7 - Motor’s current, which should present the following values: (i) close to 0 A when the 
+compressor turns off; (ii) close to 4 A when the compressor is working offloaded; and (iii) close to 7 A when 
+the compressor is operating under load (A);
+Digital sensors. The eight digital signals are collected directly from the APU and GPS information.
+
+
+Prompt ID: c01b7927-9b9d-48b3-90a7-8193ce439a85
+Prompt: Between Jan 1 and Jan 5
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 7e819618-9bb7-4695-9630-29edde1e2941
+Prompt: Can you plot oil temperature from Jan 1 to Jan 5
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 307f9c2a-e712-4bd3-8959-672d4c65dea9
+Prompt: jan 1
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 8778f4ae-ed74-440f-b4a7-db7ff79feb66
+Prompt: Plot oil temperature data from Jan 1
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 58946a4d-d018-4272-b15e-b2afd51355ad
+Prompt: the entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: cec41c9a-fd3a-4a31-9a8f-5d973af68f7f
+Prompt: Plot all data for oil temperature from Jan 1
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: a0035b54-ee67-4313-b4e9-b5ee1c178b39
+Prompt: plot all data for oil temperature for jan 1
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 115537fc-c775-4953-9b75-67f46e8e6681
+Prompt: plot oil temperature from jan 1, all data
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: fc934aa8-2b2c-45eb-bf11-0f480af72459
+Prompt: the entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 9904c8c5-bebf-434f-bfa5-8a1c457de713
+Prompt: plot jan 1 oil temperature from 6am to 2am
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 9731176c-1a21-41f5-9ff8-e1ed5bf8faa8
+Prompt: plot oil temperature on jan 1 from 6am to 2am
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: e735c5d4-2d6b-4c00-a023-e29464f053b1
+Prompt: plot oil temperature on feb 27th, entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 4624485a-077e-4027-815e-ce2573a13032
+Prompt: can you plot dv electric using the same timeframe?
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 115791f3-9f79-47c6-87d2-50f0f8a5d6a7
+Prompt: ye
+
+Retrieved: 4, Sample (Top-1):
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2022
+
+
+Prompt ID: 225b7c93-2fc3-4d03-b530-4c7b28acc205
+Prompt: plot oil temperature feb 27th, entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: d41c2f4f-c09a-48f1-8b2d-d0833fdd602c
+Prompt: plot dv electric same timeframe
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: c2717aab-8757-4aa4-b131-067e3410d421
+Prompt: plot oil temperature on feb 27th entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 4b7111a2-d7e2-482b-8191-4f2c9b9d5a56
+Prompt: thanks, can you plot dv electric for same timeframe
+
+Retrieved: 4, Sample (Top-1):
+3Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+www.nature.com/scientificdatawww.nature.com/scientificdata/
+•	 COMP - Electrical signal of the air intake valve on the compressor. It is active when there is no admission of air 
+on the compressor, meaning that the compressor turns off or working offloaded.
+•	 DV_electric - Electrical signal that commands the compressor outlet valve. When it is active, it means 
+that the compressor is working under load; when it is not active, it means that the compressor is off or 
+offloaded.
+•	 TOWERS - Signal that defines which tower is drying the air and which tower is draining the humidity removed 
+from the air. When it is not active, it means that tower one is working; when it is active, it means that tower 
+two is working.
+•	 MPG - Is responsible for activating the intake valve to start the compressor under load when the pressure in
+
+
+Prompt ID: b672779a-3b22-42c2-9729-b4cfefc7cd98
+Prompt: plot oil temperature on jan 1, entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: be79b90b-67f2-40cb-acc7-35eb656eae80
+Prompt: plot oil temperature jan 1 entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: d03b4995-290f-439b-b4a9-7bbfcc75757f
+Prompt: plot oil temperature from jan 1 entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 3b4c6cf6-8de4-49a9-98cd-f8111edce532
+Prompt: plot oil temperature jan 1, entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 2bfafb9d-93ab-4978-a582-e4d2ad66749e
+Prompt: plot oil temperature on jan 1, entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: 90b7a3ba-0417-4e30-b635-8f1bdbb6d8fb
+Prompt: thanks, can you plot dv electric for the same time period
+
+Retrieved: 4, Sample (Top-1):
+3Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+www.nature.com/scientificdatawww.nature.com/scientificdata/
+•	 COMP - Electrical signal of the air intake valve on the compressor. It is active when there is no admission of air 
+on the compressor, meaning that the compressor turns off or working offloaded.
+•	 DV_electric - Electrical signal that commands the compressor outlet valve. When it is active, it means 
+that the compressor is working under load; when it is not active, it means that the compressor is off or 
+offloaded.
+•	 TOWERS - Signal that defines which tower is drying the air and which tower is draining the humidity removed 
+from the air. When it is not active, it means that tower one is working; when it is active, it means that tower 
+two is working.
+•	 MPG - Is responsible for activating the intake valve to start the compressor under load when the pressure in
+
+
+Prompt ID: e81234ba-2f33-44ad-bc15-cdf5071e9a73
+Prompt: plot oil temperature jan 1 entire day
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: d3d752d5-eab5-45f0-8b89-cd3ec29efded
+Prompt: plot dv electric same timeframe
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+
+Prompt ID: f3807e08-e73d-4d56-bf0a-251b56457fdd
+Prompt: plot tp3 same timeframe
+
+Retrieved: 4, Sample (Top-1):
+1, 2022) from 8:00 to 10:30. Figure 3 depicts a snapshot of the data collected by the digital sensors referring to 
+the APU for the same period reported in Fig. 2, i.e. on a normal operating day (Jan 1, 2022) from 8:00 to 10:30.
+In Fig. 4, we show the data collected from the GPS module, which includes latitude, longitude, speed and 
+GPS signal quality, again for the same period reported in Fig. 2. The positional data is important to derive if the 
+train is parked or in operation (cf. Table  1). The parking zones are typically located at the end of each line or 
+in some underground parks. There are no missing values in this data. When the satellite information is lost by 
+entering a tunnel (cf. Figure 5), it is set to 0.
+Fig. 2 Snapshot of the analog sensors under normal operating conditions.
+
+

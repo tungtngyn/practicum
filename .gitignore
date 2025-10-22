@@ -1,0 +1,9 @@
+**/.DS_Store
+__pycache__
+00-dev-files/data/*.db
+00-dev-files/data/chroma_db/*
+00-dev-files/models/*.joblib
+02-data/*.db
+02-data/chroma_db/*
+03-models/*.joblib
+raw-data/*.csv
