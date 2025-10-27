@@ -1,4 +1,4 @@
-Prompt ID: 4fd7c3e7-4ff7-407f-aad8-33db3d9cc0bc
+Prompt ID: 3ef1b297-1b86-45a8-966e-3e45facf6e95
 Prompt: Were there any anomalies in February?
 
 Retrieved: 4, Sample (Top-1):
@@ -12,7 +12,7 @@ entering a tunnel (cf. Figure 5), it is set to 0.
 Fig. 2 Snapshot of the analog sensors under normal operating conditions.
 
 
-Prompt ID: 6e262ac3-d56a-47ec-8c49-c0fbd84ad400
+Prompt ID: 4759df86-51ef-4a3f-ab9c-8649efc722ff
 Prompt: Yes. Please provide details.
 
 Retrieved: 4, Sample (Top-1):
@@ -32,7 +32,7 @@ Park 4 41.168919 −8.543092 41.170735 −8.542713 41.170798 −8.543335 41.1689
 Park 5 41.157216 −8.584129 41.156949 −8.583357 41.155669 −8.583958 41.155766 −8.584537
 
 
-Prompt ID: b1df7560-3640-4647-b12b-edbc1fc3f8ac
+Prompt ID: b673641e-acfb-4d1f-95dc-4e4b5f0aa0fb
 Prompt: Can you show me what oil temperature looks like around the anomaly period?
 
 Retrieved: 4, Sample (Top-1):
@@ -50,7 +50,7 @@ Fig. 5 The GPS information on one of the train’s trajectories. When the train 
 signal.
 
 
-Prompt ID: c689b5d8-6210-4e2c-a5ac-958001c662a0
+Prompt ID: 3356c4a9-74f4-4b36-9d2c-8a9ba6e723b9
 Prompt: Can you show me what dv electric looks like around the anomaly period?
 
 Retrieved: 4, Sample (Top-1):
@@ -64,7 +64,7 @@ entering a tunnel (cf. Figure 5), it is set to 0.
 Fig. 2 Snapshot of the analog sensors under normal operating conditions.
 
 
-Prompt ID: 203f1c0f-8086-454a-820d-f046294257c3
+Prompt ID: 703104ff-80ac-415d-81c9-f3f3399b85b2
 Prompt: Can you remind me what unit oil temperature is in?
 
 Retrieved: 4, Sample (Top-1):
