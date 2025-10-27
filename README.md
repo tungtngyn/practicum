@@ -61,6 +61,10 @@ A user interface was also created using `streamlit`. The app is fully contained 
 
 A browser window should open with the app running on `localhost`. The LLM has access the anomaly detection data generated in `00_setup_and_model_training` as well as plotting capabilities.
 
-The application should look like: 
+The application should look like this: 
 
 ![App Demo](04-app/imgs/App%20Demo.png)
+
+When asked to plot, the LLM will generate the plot and save it into `/imgs`. The generated image will also be appended to the chat history:
+
+![Plot Demo](04-app/imgs/Plot%20Demo.png)
