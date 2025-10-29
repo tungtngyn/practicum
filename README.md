@@ -30,6 +30,14 @@ The main focus of the project is on **interpretability**, with bonus points for 
 ### Inference
 * Inference is handled using `langgraph` along with custom python functions that are used to interact with the databases set up during the training/preprocessing phase.
 * This can be seen in `01_inference.ipynb` (Jupyter notebook version, easier for experimentation) or in `04-app` (Streamlit app, better for demos).
+* Inference is more or less linear, as shown in the diagram below.
+  * User asks a question.
+  * A similarity search is performed with the ChromaDB to pull relevant information about the user's question.
+  * The user's question, the retrieved context, and a system prompt is sent to the LLM (OpenAI API).
+  * The LLM has tools bound to it, so it can execute functions to pull more information as needed.
+  * LLM responds to user.
+
+![Langgraph Diagram](Langgraph-Diagram.png)
 
 <br>
 
