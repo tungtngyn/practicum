@@ -18,6 +18,20 @@ The main focus of the project is on **interpretability**, with bonus points for 
 
 <br>
 
+## Technical Architecture
+
+![Technical Architecture Diagram](Diagram.jpg)
+
+### Data Processing & Model Training
+* Raw time-series data is loaded into a SQLite3 database using `pandas`
+* Dataset documentation PDF is parsed and chunked using `langchain` and `pypdf`, vectorized using `langchain-openai`, and loaded into a ChromaDB using `langchain_chroma`.
+* One `prophet` model is trained per analog sensor. Digital sensor data can be used as additional regressors (e.g. an added term), though it is never used as the primary signal (Refer to: `02_unsupervised_model_tuning.ipynb`).
+
+### Inference
+* Inference is handled using `langgraph` along with custom python functions that are used to interact with the databases set up during the training/preprocessing phase.
+* This can be seen in `01_inference.ipynb` (Jupyter notebook version, easier for experimentation) or in `04-app` (Streamlit app, better for demos).
+
+<br>
 
 ## Dataset
 The dataset used is the [MetroPT dataset](https://zenodo.org/records/6854240) and is publicly available.
