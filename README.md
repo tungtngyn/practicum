@@ -3,85 +3,77 @@
 
 **Student:** Tung Nguyen (tnguyen844@gatech.edu, tungtngyn@gmail.com)
 
+**Project:** Textual Explanation for Time Series Fault Detection
+
 **Sponsor:** Sentinel Devices
 
-<br>
-
-## Introduction
-This repository hosts the code for the Sentinel Devices project at Georgia Tech. The goal of this project is to design and implement an anomaly detection system that is capable of:
-
-1. Identifying anomalies in unlabeled sensor data (time-series).
-2. Explain the anomaly detection flags in user-readable text.
-3. Design a user interface.
-
-The main focus of the project is on **interpretability**, with bonus points for designing a system that can run on minimal compute during inference.
 
 <br>
 
-## Technical Architecture
+
+## Deliverables
+
+### A. Working Prototype
+
+This repository provides two versions of the prototype: a Jupyter notebook and  Streamlit webapp. 
+
+* The Jupyter notebook (`./01_inference.ipynb`) contains all the code required for running the inference workflow and illustrates how the process works internally.
+* The Streamlit webapp (`./04-app/*`) is a more polished, production-ready interface that can be run using a single command: `streamlit run app.py`.
+
+To run either prototypes, follow the setup instructions in the next section.
+
+This project also includes supplemental work (outside of the final deliverables) inside `./02_unsupervised_model_tuning.ipynb`. This Jupyter notebook contains proof-of-concept code for parallel model training and unsupervised model tuning using Bayesian optimization + synthetic anomaly generation. Please read the report, Section 4 - Supplemental Work, for more details.
+
+### B. Documentation
+
+#### Setup
+
+All the code in this repository requires an OpenAI API Key (in a .env file one folder up, e.g., `../.env`), a ChromaDB (`./02-data/chroma_db/*`), and a SQLite3 Results DB (`./02-data/data.db`).
+
+In an environment file (.env) one folder up, add your OpenAI API Key:
+
+```
+OPENAI_API_KEY="sk..."
+```
+
+Create a Python virtual environment using `./requirements.txt`:
+
+```bash
+python -m venv ./sentinel-devices
+
+pip install -r requirements.txt
+
+# Optional: Upgrade pip
+pip install --upgrade pip
+```
+
+To set up the ChromaDB and Results DB, run all of the code in `./00_setup_and_model_training.ipynb` (might take a long time). Or alternatively, download the database files from [this Google Drive folder](https://drive.google.com/drive/folders/1Vk6pBK44Ix-lIV-R_t0L3_fzxyOg3xpn?usp=share_link). The Google Drive also contains the model files for reference. These model files are not used in the prototype since results are already written to the SQLite3 DB. **These files will be deleted from the Google Drive at the end of Dec 2025 to clear up space.**
+
+#### Prototype
+
+Once downloaded (or setup code has completed running), 
+
+* All the code in `./01_inference.ipynb` should be able to be run.
+* The Streamlit app can be started by opening a terminal window, activating the virtual environment, navigating to the `./04-app` folder, then running `streamlit run app.py`
+
+If issues are encountered, please reach out to `tungtngyn@gmail.com`.
+
+#### Technical Architecture
+
+The diagram below shows the flow from raw dataset to user explanation. It is a visual representation of `./00_setup_and_model_training.ipynb` + `./04-app`.
 
 ![Technical Architecture Diagram](Diagram.jpg)
 
-### Data Processing & Model Training
-* Raw time-series data is loaded into a SQLite3 database using `pandas`
-* Dataset documentation PDF is parsed and chunked using `langchain` and `pypdf`, vectorized using `langchain-openai`, and loaded into a ChromaDB using `langchain_chroma`.
-* One `prophet` model is trained per analog sensor. Digital sensor data can be used as additional regressors (e.g. an added term), though it is never used as the primary signal (Refer to: `02_unsupervised_model_tuning.ipynb`).
+**Technologies Used:**
+* The entire project was built in Python.
+* Tabular data processing was done using `pandas` and `sqlite3`.
+* Retrieval Augmented Generation (RAG) was done using: `langchain` / `pypdf` for PDF parsing and chunking, `langchain-openai` for embeddings, and `langchain_chroma` for the vector database & similarity search.
+* Anomaly detection was performed using `prophet` + pure python code.
+* User interface was built using `streamlit`.
 
-### Inference
-* Inference is handled using `langgraph` along with custom python functions that are used to interact with the databases set up during the training/preprocessing phase.
-* This can be seen in `01_inference.ipynb` (Jupyter notebook version, easier for experimentation) or in `04-app` (Streamlit app, better for demos).
-* Inference is more or less linear, as shown in the diagram below.
-  * User asks a question.
-  * A similarity search is performed with the ChromaDB to pull relevant information about the user's question.
-  * The user's question, the retrieved context, and a system prompt is sent to the LLM (OpenAI API).
-  * The LLM has tools bound to it, so it can execute functions to pull more information as needed.
-  * LLM responds to user.
+### C. Demonstration
 
-![Langgraph Diagram](Langgraph-Diagram.png)
-
-<br>
-
-## Dataset
-The dataset used is the [MetroPT dataset](https://zenodo.org/records/6854240) and is publicly available.
-
-<br>
-
-## Repository Structure
-
-This project requires access to the Open AI API. To be able to run some of the code, you must have a `.env` file with variable `OPENAI_API_KEY=sk-...`.
-
-### Administrative Folders
-
-* `01-docs`: Contains the MetroPT dataset's research paper + Sentinel Devices project syllabus.
-* `output`: Stores output files from Jupyter notebooks.
-* `raw-data`: Stores the raw CSV data from the MetroPT dataset. This repository is empty because the data does not fit into GitHub.
-
-### Development Folders
-
-* `00-dev-files`: Contains a series of Jupyter notebooks used during development and/or initial experimentation. 
- 
-The majority of the code in these Jupyter notebooks are not final and should be considered development code. 
-
-Plots, models, and metrics in `03_modeling_f1.ipynb`, `04_metrics_f1.ipynb` are used in the final report and should be considered finalized code.
-
-### Demo Files
-
-The root folder contains the following files:
-
-* `requirements.txt`: Contains libraries used in this project. This project was developed using Python's `venv` module and does not require `conda` installation.
-* `00_setup_and_model_training.ipynb`: Contains processing code (e.g. to parse raw CSV and PDF data into databases), model training code (for anomaly detection model), and model inference code (for anomaly detection model).
-* `01_inference.ipynb`: Contains code which leverages ChatGPT to convert anomaly detection data generated in `00_setup_and_model_training` into user-readable text.
-* `02_unsupervised_model_tuning.ipynb`: Contains proof-of-concept code for parallel model training + model tuning via synthetic anomalies.  
-  
-### Streamlit App
-
-A user interface was also created using `streamlit`. The app is fully contained in `04-app` and can be run using the following instructions:
-
-1. Create and activate a virtual environment using the libraries in `requirements.txt`
-2. Open the `04-app` folder in a Terminal window
-3. Run `streamlit run app.py`
-
-A browser window should open with the app running on `localhost`. The LLM has access the anomaly detection data generated in `00_setup_and_model_training` as well as plotting capabilities.
+A video demo of the Streamlit app is provided [here](https://www.youtube.com/watch?v=GOR1r17o70s). The video demonstrates how the LLM is capable of querying, aggregating, and even plotting data. 
 
 The application should look like this: 
 
@@ -90,3 +82,32 @@ The application should look like this:
 When asked to plot, the LLM will generate the plot and save it into `/imgs`. The generated image will also be appended to the chat history:
 
 ![Plot Demo](04-app/imgs/Plot%20Demo.png)
+
+### D. Write-Up
+
+A 4-page report summarizing the project work and notable findings is provided in the `./reports` folder.
+
+
+<br>
+
+
+## Appendix: Repository Structure Documentation
+
+### Folders
+
+* `00-dev-files`: Contains a series of Jupyter notebooks used during initial experimentation and model evaluation. The majority of the code in these Jupyter notebooks are not final and should be considered development code. Plots, models, and metrics shown in the report were generated in `03_modeling_f1.ipynb`, `04_metrics_f1.ipynb`.
+* `01-docs`: Contains the MetroPT dataset's research paper + Sentinel Devices project syllabus.
+* `02-data`: Contains the ChromaDB and SQLite3 Results DB. The files in this folder are omitted due to their size. Download the databases from the Google Drive linked above or regenerate them using the code in `./00_setup_and_model_training.ipynb`.
+* `03-models`: Contains trained model files. Omitted due to size. Download model files from the Google Drive linked above or regenerate them using the code in `./00_setup_and_model_training.ipynb`.
+* `04-app`: Streamlit webapp code.
+* `output`: Output folder for plots and logs generated in `./01_inference.ipynb` and `./02_unsupervised_model_tuning.ipynb`.
+* `raw-data`: Contains raw CSV data for the MetroPT dataset. Omitted due to size, redownload the CSV [here](https://zenodo.org/records/6854240).
+* `reports`: Contains report PDF.
+
+
+### Notebooks & Utils
+
+* `./00_setup_and_model_training.ipynb`: Sets up Chroma DB, Results DB, trains Prophet models, and saves Prophet results in LLM-ready tables.
+* `./01_inference.ipynb`: Connects to OpenAI API, ChromaDB, and Results DB for inference using LangGraph.
+* `./02_unsupervised_model_tuning.ipynb`: Proof-of-concept code for parallel model training, unsupervised model tuning (synthetic anomaly generation, bayesian optimization).
+* `./utils.py`: Utilities for inference + parallel model training. Used by the Jupyter notebooks above.

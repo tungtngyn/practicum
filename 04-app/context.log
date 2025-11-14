@@ -1,4 +1,4 @@
-Prompt ID: c03349c3-88d3-48fd-8b35-147c4e806d6c
+Prompt ID: 17891515-47bc-4e0e-987b-e51e9cdb2c1d
 Prompt: Were there any anomalies on Feb 27th?
 
 Retrieved: 4, Sample (Top-1):
@@ -15,28 +15,60 @@ for the lack of air pressure, and the train continues in operation. After 15:00,
 to the return of the normal pattern of the pneumatic pilot valve.
 
 
-Prompt ID: 72d8357a-75e3-4066-aec9-fefaed996add
-Prompt: Can you provide some details about this event?
+Prompt ID: 483207f8-6cc2-45be-ad84-2432b4c642cb
+Prompt: Please provide more details on this anomaly event.
 
 Retrieved: 4, Sample (Top-1):
-4Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
+was blown up. In the second failure, the train recovered from the malfunction. In this case, the train needed to 
+move to the maintenance building.
+Figure 6 shows a catastrophic drop on the air pressure near 23:00 due to a broken air pipe. This problem was 
+classified as a severe malfunction, and the train needed to be removed from operation.
+Failure 2 - Air leak on air dryer. The second failure is provoked by a malfunction of the pneumatic pilot valve 
+that opens the drain pipes during the operation of the compressor. Figure 7 shows some anomalies on the regu
+-
+lar fill of air tanks and consumption by the train clients. Between 12:00 and 14:00, we can observe huge drops in 
+air pressure, provoking an alarm for the train driver (LPS warning variable), the compressor tries to compensate 
+for the lack of air pressure, and the train continues in operation. After 15:00, the APU behaviour stabilises due 
+to the return of the normal pattern of the pneumatic pilot valve.
+
+
+Prompt ID: f1ec6b57-b9d2-41aa-8640-f20d2ffd403c
+Prompt: Can you show me what oil temperature looks like?
+
+Retrieved: 4, Sample (Top-1):
+•	 TP34 - Pressure generated at the pneumatic panel (bar).
+•	 H14 - Valve that is activated when the pressure read by the pressure switch of the command is above the oper-
+ating pressure of 10.2 bar (bar).
+•	 DV_pressure 4 - Pressure exerted due to pressure drop generated when air dryers towers discharge the 
+water. When it is equal to zero, the compressor is working under load (bar).
+•	 Reservoirs4 - Pressure inside the air tanks installed on the trains (bar).
+•	 Oil_Temperature5 - Temperature of the oil present on the compressor (°C).
+•	 Flowmeter6 - Airflow was measured on the pneumatic control panel (m3/h).
+•	 Motor_Current 7 - Motor’s current, which should present the following values: (i) close to 0 A when the 
+compressor turns off; (ii) close to 4 A when the compressor is working offloaded; and (iii) close to 7 A when 
+the compressor is operating under load (A);
+Digital sensors. The eight digital signals are collected directly from the APU and GPS information.
+
+
+Prompt ID: c5b9ba4b-0207-4510-8330-e135c851beff
+Prompt: What about dv electric?
+
+Retrieved: 4, Sample (Top-1):
+3Scientific  Data |           (2022) 9:764  | https://doi.org/10.1038/s41597-022-01877-3
 www.nature.com/scientificdatawww.nature.com/scientificdata/
-Fig. 3 Snapshot of the digital sensors on the APU under normal operating conditions.
-Fig. 4 Snapshot of the GPS information under normal operating conditions.
-Place
-Polygon
-Point 1 Point 2 Point 3 Point 4
-Latitude Longitude Latitude Longitude Latitude Longitude Latitude Longitude
-Maintenance 41.212693 −8.661192 41.213258 −8.657555 41.215243 −8.660516 41.213375 −8.662785
-Park 1 41.213604 −8.660474 41.212829 −8.661654 41.210198 −8.657824 41.211126 −8.656569
-Park 2 41.376419 −8.757253 41.378367 −8.758960 41.378528 −8.758405 41.376558 −8.756909
-Park 3 41.269800 −8.614621 41.272303 −8.613077 41.272428 −8.613600 41.271245 −8.614321
-Park 4 41.168919 −8.543092 41.170735 −8.542713 41.170798 −8.543335 41.168919 −8.543646
-Park 5 41.157216 −8.584129 41.156949 −8.583357 41.155669 −8.583958 41.155766 −8.584537
+•	 COMP - Electrical signal of the air intake valve on the compressor. It is active when there is no admission of air 
+on the compressor, meaning that the compressor turns off or working offloaded.
+•	 DV_electric - Electrical signal that commands the compressor outlet valve. When it is active, it means 
+that the compressor is working under load; when it is not active, it means that the compressor is off or 
+offloaded.
+•	 TOWERS - Signal that defines which tower is drying the air and which tower is draining the humidity removed 
+from the air. When it is not active, it means that tower one is working; when it is active, it means that tower 
+two is working.
+•	 MPG - Is responsible for activating the intake valve to start the compressor under load when the pressure in
 
 
-Prompt ID: 73ea4464-cc4f-4ba0-a706-8d7fea18c536
-Prompt: Can you plot oil temperature?
+Prompt ID: 4054cdbd-8a0c-4f3f-a2c3-44d57acaf691
+Prompt: What unit is oil temperature in?
 
 Retrieved: 4, Sample (Top-1):
 •	 TP34 - Pressure generated at the pneumatic panel (bar).
