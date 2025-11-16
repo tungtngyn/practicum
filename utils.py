@@ -282,7 +282,12 @@ def update_digital_sensor_plot_for_user(
 
 
 def train_prophet_model(sensor: str, df: pd.DataFrame) -> None:
-    
+    """Trains a Prophet model given the sensor & training data
+
+    Args:
+        sensor (str): Name of the sensor to be used for training
+        df (pd.DataFrame): Training Data, in a pandas DataFrame
+    """
     model = Prophet(
         changepoint_prior_scale=0.5, # Lower changepoint prior
         yearly_seasonality=False,    # Use custom seasonalities instead 
