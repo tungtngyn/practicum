@@ -1,5 +1,5 @@
-# Practicum Project 2025
-**Georgia Institute of Technology**
+# Building An Agentic System for Explainable Anomaly Detection
+**Georgia Institute of Technology, Fall 2025 Practicum**
 
 **Student:** Tung Nguyen (tnguyen844@gatech.edu, tungtngyn@gmail.com)
 
