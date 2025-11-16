@@ -90,6 +90,8 @@ When asked to plot, the LLM will generate the plot and save it in the `/04-app/i
 
 A 4-page report summarizing the project work and notable findings is provided in the `./reports` folder.
 
+The Georgia Tech version of the report (longer, more detailed) is also available upon request. Please email `tungtngyn@gmail.com`.
+
 
 <br>
 
