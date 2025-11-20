@@ -15,7 +15,7 @@
 
 ## A. Working Prototype
 
-This repository provides two versions of the prototype: a Jupyter notebook and  a Streamlit webapp. 
+This repository provides two versions of the prototype: a Jupyter notebook and a Streamlit webapp. 
 
 * The Jupyter notebook (`./01_inference.ipynb`) contains all the code required for running the inference workflow and illustrates how the process works internally.
 * The Streamlit webapp (`./04-app/*`) is a more polished, production-ready interface that can be run using a single command: `streamlit run app.py`.
@@ -23,6 +23,10 @@ This repository provides two versions of the prototype: a Jupyter notebook and  
 To run either prototypes, follow the setup instructions in the next section.
 
 This project also includes supplemental work (outside of the final deliverables) inside `./02_unsupervised_model_tuning.ipynb`. This Jupyter notebook contains proof-of-concept code for parallel model training and unsupervised model tuning using Bayesian optimization + synthetic anomaly generation. Please read the report (`./reports`), Section 4 - Supplemental Work, for more details.
+
+### Google Colab
+
+The inference notebook (`01_inference.ipynb`) is also provided as a runnable Google Colab notebook [here](https://drive.google.com/drive/folders/1Vk6pBK44Ix-lIV-R_t0L3_fzxyOg3xpn?usp=share_link). 
 
 ## B. Documentation
 
